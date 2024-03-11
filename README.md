@@ -66,11 +66,19 @@ $$
 $$
 假设遍历了$n$次，那么在$n\rightarrow\infty$d的时候，上式约为$0.607253$，我们可以令初始向量横坐标$x_0=0.607253$。
 
+# 算法分类
+Cordic算法有两种应用:
 
+- 已知角度求出sin,cos值.
+- 已知x,y的坐标,求出相位角.
+
+两者本质上是互逆的.
+
+对于第一种，我们将可以得到原向量的位置，然后不断向
 # Reference
 
 1. [CORDIC算法详解(一)-CORDIC 算法之圆周系统之旋转模式](https://cloud.tencent.com/developer/article/1651716)
 2. [CORDIC算法详解(一)-CORDIC 算法之圆周系统之旋转模式_cordic碎碎思-CSDN博客](https://blog.csdn.net/Pieces_thinking/article/details/83512820)
 3. [CORDIC算法原理详解 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/384524393)
-4. 
+4. [CORDIC算法原理详解及其Verilog实现_verilog cordic算法-CSDN博客](https://blog.csdn.net/gemengxia/article/details/112475073)
 
